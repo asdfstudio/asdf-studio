@@ -35,7 +35,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         gtag('config', 'G-RVB34B1X53');
         `}
       </Script>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </>
   );
 }

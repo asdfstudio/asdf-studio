@@ -344,16 +344,33 @@ export const SectionOne = () => {
           height={377}
           alt="devices image"
         /> */}
-        <object
+        {/* <object
           type="image/svg+xml"
           data="/diverse-design.svg"
           className="hidden xl:block w-[322px] h-[429px] absolute left-[480px] xl:absolute top-[250px]"
-        ></object>
-        <object
+        ></object> */}
+        {/* <object
           type="image/svg+xml"
           data="/diverse-design.svg"
           className="hidden sm:block absolute w-[283px] h-[377px] z-20 left-[280px] sm:top-[300px] x:left-[380px] xl:hidden"
-        ></object>
+        ></object> */}
+
+        <Image
+          className="hidden xl:block w-[322px] h-[429px] absolute left-[480px] xl:absolute top-[250px]"
+          src="/devices@2x.png"
+          width={254}
+          height={339}
+          alt="devices image"
+          draggable={false}
+        />
+         <Image
+          className="hidden sm:block absolute w-[283px] h-[377px] z-20 left-[280px] sm:top-[300px] x:left-[380px] xl:hidden"
+          src="/devices@2x.png"
+          width={254}
+          height={339}
+          alt="devices image"
+          draggable={false}
+        />
         <Image
           className="absolute top-[300px] left-[78px] z-20 sm:hidden"
           src="/devices@2x.png"

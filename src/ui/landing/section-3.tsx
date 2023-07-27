@@ -7,7 +7,7 @@ import { Link } from 'react-scroll';
 
 const BottomComp = (
   <div className="bg-lightBlue h-[750px] absolute top-0 z-0 w-full" />
-);
+)
 
 export const SectionThree = () => {
   return (

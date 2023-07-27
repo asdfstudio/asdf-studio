@@ -22,7 +22,7 @@ export const Proof = () => {
       <div
         id="Process"
         className={[
-          'relative h-[850px] max-w-[1180px] mb-[100px] 420:mb-[170px] sm:h-[950px] 2xl:max-w-[1260px] w-full mx-auto z-20',
+          'relative h-[850px] max-w-[1180px] mb-[120px] 420:mb-[170px] sm:h-[800px] 2xl:max-w-[1260px] w-full mx-auto z-20',
           padding,
         ].join(' ')}
       >

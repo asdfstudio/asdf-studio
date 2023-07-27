@@ -39,12 +39,12 @@ export const OurClients = () => {
 
   const establishiedClients = [
     {
-      url: 'salesHood.png',
+      url: 'saleshood.svg',
       width: 90,
       height: 90,
     },
     {
-      url: 'westPro.png',
+      url: 'westpro.svg',
       width: 94,
       height: 58,
     },
@@ -54,18 +54,18 @@ export const OurClients = () => {
       height: 38,
     },
     {
-      url: 'ars-logo.png',
+      url: 'ars.svg',
       width: 87,
       height: 98,
     },
     {
-      url: 'planpop.png',
+      url: 'planpop.svg',
       width: 124,
       height: 88,
     },
 
     {
-      url: 'StoryStudioLogo.webp',
+      url: 'story-studio.svg',
       width: 96,
       height: 38,
     },
@@ -90,7 +90,7 @@ export const OurClients = () => {
       height: 32,
     },
     {
-      url: 'colArt.png',
+      url: 'colart.svg',
       width: 125,
       height: 90,
     },

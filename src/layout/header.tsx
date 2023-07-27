@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Button, AirlyLogo, MobileMenu, MobileCancel } from 'components';
 import { Link } from 'react-scroll';
-// import Link from "next/link";
+import Linkk from "next/link";
 
 const NAV__LINK = [
   {
@@ -78,12 +78,10 @@ export const Header = () => {
               ))}
             </div>
             <div className="p-3 1xl:pr-3">
-              <Link
-                to={'portfolio'}
-                spy={true}
-                smooth={true}
-                offset={-60}
-                duration={1500}
+              <Linkk
+                href="https://airlystudio.myportfolio.com/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Button
                   variant="primary"
@@ -92,7 +90,7 @@ export const Header = () => {
                   <span className="text-[10px] 414:text-[16px]">Portfolio</span>
                   {/* Portfolio */}
                 </Button>
-              </Link>
+              </Linkk>
             </div>
             <div className="flex text-center justify-center 1xl:hidden">
               <i className="w-[1px] h-[40px] border-r-2 border-lightBlue mr-3" />

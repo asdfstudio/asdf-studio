@@ -11,14 +11,14 @@ const MainLayout: FC<Props> = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Airly Studio</title>
+        <title>[asdf] studio</title>
         <meta name="description" content="The complete solution agency" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           property="og:image"
           content="https://airlystudio.com/website_thumbnail@1x.png"
         />
-        <link rel="icon" href="/apple-icon.png" />
+        <link rel="icon" href="/airly-logo.svg" />
       </Head>
       <Header />
       <main className={['mt-[60px]'].join(' ')}>{children}</main>
