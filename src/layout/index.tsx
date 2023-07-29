@@ -11,7 +11,7 @@ const MainLayout: FC<Props> = ({ children }) => {
   return (
     <>
       <Head>
-        <title>[asdf] studio</title>
+        <title>[asdf]studio</title>
         <meta name="description" content="The complete solution agency" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
