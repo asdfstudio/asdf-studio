@@ -44,7 +44,7 @@ const ClientComment = React.forwardRef((props, ref) => {
         <Slider ref={(slider) => (ref.current = slider)} {...settings}>
           {userComments.map(({ color, comment, name, position }, index) => {
             return (
-              <div className="p-[10px] sm:p-[10px]">
+              <div className="p-[10px] sm:p-[10px]" key={index}>
               <CommentCard
                 key={index}
                 color={color}

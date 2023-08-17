@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { Typography, TypoVariants } from "./Typography";
 
-type ButtonVariants = "primary" | "secondary" | "text" | "square";
+type ButtonVariants = "primary" | "secondary" | "text" | "square" | "tag";
 
 interface Props extends React.HTMLProps<HTMLButtonElement> {
   children?: React.ReactNode;
@@ -25,6 +25,7 @@ export const Button: FC<Props> = ({
       "shadow-buttonShadow2 text-main-deepBlue bg-white rounded-[23px] pl-5 pr-3 font-semibold hover:bg-main-hoverWhite",
     text: "text-main-blue px-2",
     square: "shadow-buttonShadow3 rounded-[4.6px] bg-white px-2",
+    tag: "text-main-white px-2",
   };
 
   return (

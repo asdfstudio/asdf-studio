@@ -1,7 +1,10 @@
 import { useState } from 'react';
 import { Button, AirlyLogo, MobileMenu, MobileCancel } from 'components';
-import { Link } from 'react-scroll';
-import Linkk from "next/link";
+import Scroll from "react-scroll";
+import Link from "next/link";
+import { usePathname } from 'next/navigation'
+import { useRouter } from 'next/router'
+const ScrollLink = Scroll.Link;
 
 const NAV__LINK = [
   {
@@ -40,6 +43,18 @@ const NAV__LINK = [
 
 export const Header = () => {
   const [navbar, setNavbar] = useState(false);
+  const pathname = usePathname();
+  const router = useRouter();
+  const scroller = Scroll.scroller;
+
+  const scrollTarget = (target: string) => scroller.scrollTo(target, {smooth: true, duration: 700, offset: -60});
+
+    const scrollToPage = async (target: string) => {
+        if (pathname !=='/') {
+            await router.push('/');
+        }
+        scrollTarget(target);
+    };
   return (
     <>
       <div className="fixed top-0 left-0 bg-white shadow-headerShadow w-full z-50">
@@ -49,39 +64,29 @@ export const Header = () => {
             // screen,
           ].join(' ')}
         >
-          <Link
-            to={'home'}
-            spy={true}
-            smooth={true}
-            offset={-60}
-            duration={500}
-            className="cursor-pointer"
-          >
-            <AirlyLogo />
-          </Link>
+          <div className='cursor-pointer' onClick={() => scrollToPage('home')}>
+            <AirlyLogo/>
+          </div>
           <div className="flex items-center gap-3">
             <div className={'gap-5 hidden 1xl:flex'}>
               {NAV__LINK.map((item, index) => (
-                <Button key={index} variant="text">
-                  <Link
-                    to={item.path}
-                    spy={true}
-                    smooth={true}
-                    offset={-60}
-                    duration={500}
-                    key={index}
-                    className="pb-4 border-b-4 border-white whitespace-nowrap hover:border-main-deepBlue"
-                  >
+                <Button key={index} variant="text" onClick={() => scrollToPage(item.path)}>
                     {item.display}
-                  </Link>
                 </Button>
               ))}
             </div>
             <div className="p-3 1xl:pr-3">
-              <Linkk
+              {/* <Link
                 href="https://airlystudio.myportfolio.com/"
                 target="_blank"
                 rel="noopener noreferrer"
+              > */}
+              <ScrollLink
+                to={'portfolio'}
+                spy={true}
+                smooth={true}
+                offset={-60}
+                duration={1500}
               >
                 <Button
                   variant="primary"
@@ -90,7 +95,8 @@ export const Header = () => {
                   <span className="text-[10px] 414:text-[16px]">Portfolio</span>
                   {/* Portfolio */}
                 </Button>
-              </Linkk>
+              </ScrollLink>
+              {/* </Link> */}
             </div>
             <div className="flex text-center justify-center 1xl:hidden">
               <i className="w-[1px] h-[40px] border-r-2 border-lightBlue mr-3" />
@@ -111,19 +117,8 @@ export const Header = () => {
             }`}
           >
             {NAV__LINK.map((item, index) => (
-              <Button key={index} variant="text">
-                <Link
-                  to={item.path}
-                  spy={true}
-                  smooth={true}
-                  offset={-60}
-                  duration={500}
-                  key={index}
-                  onClick={() => setNavbar(!navbar)}
-                  className="border-b-4 border-white whitespace-nowrap hover:border-main-deepBlue"
-                >
-                  {item.display}
-                </Link>
+              <Button key={index} variant="text" onClick={() => scrollToPage(item.path)}>
+                {item.display}
               </Button>
             ))}
           </div>
@@ -139,7 +134,7 @@ export const Header = () => {
             
           ].join(" ")}
         > */}
-        <Link
+        <ScrollLink
           to={'contact_us'}
           spy={true}
           smooth={true}
@@ -153,10 +148,10 @@ export const Header = () => {
           >
             Let’s Connect
           </Button>
-        </Link>
+        </ScrollLink>
         {/* </div> */}
         <div className="hidden sm:block x:block]">
-          <Link
+          <ScrollLink
             to={'contact_us'}
             spy={true}
             smooth={true}
@@ -170,7 +165,7 @@ export const Header = () => {
             >
               Let’s Connect
             </Button>
-          </Link>
+          </ScrollLink>
 
           <div className="sm:fixed w-[325px] h-[35px] text-white bg-main-blue rounded-[20px] flex justify-center items-center inline-flex rotate-90 bottom-40 -right-20 -mr-[45px]">
             <li className="flex items-center justify-center">

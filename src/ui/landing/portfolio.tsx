@@ -61,9 +61,10 @@ export const Portfolio = () => {
 
           <div className={'flex w-full justify-center sm: top-[180px]'}>
             <Link
-              href="https://airlystudio.myportfolio.com/"
-              target="_blank"
-              rel="noopener noreferrer"
+              // href="https://airlystudio.myportfolio.com/"
+              // target="_blank"
+              // rel="noopener noreferrer"
+              href="/portfolio"
             >
               <Button
                 typoVariant="title-semi-button"
@@ -83,9 +84,10 @@ export const Portfolio = () => {
             </Typography>
 
             <Link
-              href="https://airlystudio.myportfolio.com/"
-              target="_blank"
-              rel="noopener noreferrer"
+              // href="https://airlystudio.myportfolio.com/"
+              // target="_blank"
+              // rel="noopener noreferrer"
+              href="/portfolio"
             >
               <Button
                 typoVariant="title-semi-button"
@@ -113,9 +115,10 @@ export const Portfolio = () => {
         </div>
         <div className="relative -bottom-[850px] 360:-bottom-[1150px] 375:-bottom-[1150px] 414:-bottom-[1300px] 420:-bottom-[1300px] 752:-bottom-[1560px] h-80 bg-gradient-to-t from-[#d3e9f7] sm:hidden"></div>
         <Link
-          href="https://airlystudio.myportfolio.com/"
-          target="_blank"
-          rel="noopener noreferrer"
+          // href="https://airlystudio.myportfolio.com/"
+          // target="_blank"
+          // rel="noopener noreferrer"
+          href="/portfolio"
         >
           <Button
             typoVariant="title-semi-button"

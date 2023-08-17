@@ -38,10 +38,12 @@ module.exports = {
       },
       colors: {
         main: {
+          white: '#FFFFFF',
           orange: '#f97066',
           blue: '#012859',
           lightBlue: '#d3e9f7',
           deepBlue: '#013e88',
+          deepBlue60: 'rgba(1, 62, 136, 0.6)',
           red: '#e04e4e',
           grey: '#b3bfd7',
           cyan: '#a0efff',
@@ -51,12 +53,14 @@ module.exports = {
           modalTitle: '#012859',
           modalTitleSecond: '#6c768b',
           lightestBlue: '#f5f9fe',
+          lightGray: '#F4F5F6'
         },
         border: {
           button: 'rgba(255, 255, 255, 0.14)',
           tag: 'rgba(1, 62, 136, 0.3)',
           tag1: 'rgba(255, 255, 255, 0.3)',
           comment: '#e5e7ec',
+          vrBorder: 'rgba(128, 128, 128, 0.50)',
         },
       },
       opacity: {
@@ -69,6 +73,8 @@ module.exports = {
         buttonShadow3:
           '0 13px 13px 0 rgba(2, 32, 71, 0.12), 0 0 1px 0 rgba(2, 32, 71, 0.1)',
         buttonShadow4: '0 2px 8px 0 rgba(0, 0, 0, 0.1)',
+        buttonShadow5:
+          '0px 18px 35px 0px rgba(2, 32, 71, 0.06), 0px 0px 1px 0px rgba(2, 32, 71, 0.10)',
         headerShadow:
           '0 18px 18px 0 rgba(53, 61, 65, 0.1), 0 0 1px 0 rgba(35, 42, 46, 0.05)',
         commentShadow:
@@ -80,6 +86,8 @@ module.exports = {
           'linear-gradient(to bottom, #fff, #d3e9f7, rgba(211, 233, 247, 0))',
         greyBlue:
           'linear-gradient(to top, #d3e9f7, rgba(211, 233, 247, 0) 50%)',
+          greyBlueReverse:
+          'linear-gradient(178deg, #D3E9F7 0%, #FFF 100%)',
       },
     },
   },

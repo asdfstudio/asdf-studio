@@ -39,15 +39,15 @@ export const CommentSVG = (props: SVGProps<SVGSVGElement>) => {
       <g
         id="home-page"
         stroke="none"
-        stroke-width="1"
+        strokeWidth="1"
         fill="none"
-        fill-rule="evenodd"
+        fillRule="evenodd"
       >
         <g
           id="Home-(Small-Laptop)"
           transform="translate(-246.000000, -8160.000000)"
           fill={fill || "#beffc4"}
-          fill-rule="nonzero"
+          fillRule="nonzero"
         >
           <g id="Group-68" transform="translate(-576.750000, 0.000000)">
             <g id="Group-3" transform="translate(388.000000, 8134.172867)">
