@@ -2,8 +2,24 @@ import { Canvas, FooterCard, Typography } from 'components';
 import { padding } from '../constants';
 import Image from 'next/image';
 import { Link } from 'react-scroll';
+import Scroll from "react-scroll";
+
+import { usePathname } from 'next/navigation'
+import { useRouter } from 'next/router'
 
 export const Footer = () => {
+  const pathname = usePathname();
+  const router = useRouter();
+  const scroller = Scroll.scroller;
+
+  const scrollTarget = (target: string) => scroller.scrollTo(target, {smooth: true, duration: 700, offset: -60});
+
+  const scrollToPage = async (target: string) => {
+      if (pathname !=='/') {
+          await router.push('/');
+      }
+      scrollTarget(target);
+  };
   return (
     <Canvas classname="bg-lightBlue">
       <div
@@ -94,35 +110,23 @@ export const Footer = () => {
 
         <div className="flex flex-col mt-[33px] sm:mt-[52px]">
           <div className="flex sm:gap-[22px] gap-5 mx-auto flex-col sm:flex-row items-center sm:items-start">
-            <Link
-              to={'design'}
-              spy={true}
-              smooth={true}
-              offset={-60}
-              duration={500}
-            >
+            <div onClick={() => scrollToPage('design')}>
               <Typography
                 classname="uppercase text-main-deepBlue font-medium cursor-pointer"
                 variant="label2"
               >
                 Design
               </Typography>
-            </Link>
-            <Link
-              to={'development'}
-              spy={true}
-              smooth={true}
-              offset={-60}
-              duration={500}
-            >
-              <Typography
-                classname="uppercase text-main-deepBlue font-medium cursor-pointer"
-                variant="label2"
-              >
-                Development
-              </Typography>
-            </Link>
-            <Link
+              </div>
+              <div onClick={() => scrollToPage('development')}>
+                <Typography
+                  classname="uppercase text-main-deepBlue font-medium cursor-pointer"
+                  variant="label2"
+                >
+                  Development
+                </Typography>
+              </div>
+            {/* <Link
               to={'marketing'}
               spy={true}
               smooth={true}
@@ -135,49 +139,31 @@ export const Footer = () => {
               >
                 Marketing
               </Typography>
-            </Link>
-            <Link
-              to={'clients'}
-              spy={true}
-              smooth={true}
-              offset={-60}
-              duration={500}
-            >
+            </Link> */}
+            <div onClick={() => scrollToPage('clients')}>
               <Typography
                 classname="uppercase text-main-deepBlue font-medium cursor-pointer"
                 variant="label2"
               >
                 Clients
               </Typography>
-            </Link>
-            <Link
-              to={'process'}
-              spy={true}
-              smooth={true}
-              offset={-60}
-              duration={500}
-            >
+            </div>
+            <div onClick={() => scrollToPage('Process')}>
               <Typography
                 classname="uppercase text-main-deepBlue font-medium cursor-pointer"
                 variant="label2"
               >
                 Process
               </Typography>
-            </Link>
-            <Link
-              to={'testimonials'}
-              spy={true}
-              smooth={true}
-              offset={-60}
-              duration={500}
-            >
+            </div>
+            <div onClick={() => scrollToPage('testmonials')}>
               <Typography
                 classname="uppercase text-main-deepBlue font-medium cursor-pointer"
                 variant="label2"
               >
                 Testimonials
               </Typography>
-            </Link>
+            </div>
             <Link
               href="#contact_us"
               to={'contact_us'}
