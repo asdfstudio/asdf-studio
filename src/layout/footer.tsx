@@ -215,7 +215,8 @@ export const Footer = () => {
           className="mx-auto hidden object-cover sm:block"
           draggable={false}
         />
-        <Image
+      </div>
+      <Image
           src={'/footer-mobile@2x.png'}
           width={360}
           height={335}
@@ -224,7 +225,6 @@ export const Footer = () => {
           className="mx-auto sm:hidden"
           draggable={false}
         />
-      </div>
     </Canvas>
   );
 };

@@ -11,7 +11,7 @@ export const PortfolioPage = () => {
       <div
         className="w-full h-[auto] z-10 pt-[50px]"
       >
-        <div className="w-full mx-auto flex flex-col justify-between px-5 pt-5 xl:px-20 xl:pt-10 1xl:flex-row">
+        <div className="w-full mx-auto flex flex-col justify-between px-5 pt-5 xl:px-20 xl:pt-10 1xl:flex-row 2xl:px-[70px] 4xl:px-[60px] 5xl:px-[120px]">
           <div className='flex justify-start sm:justify-center'>
             <Typography variant="heading7" classname="text-main-deepBlue">
               Portfolio
@@ -37,7 +37,7 @@ export const PortfolioPage = () => {
                   98+
                 </Typography>
               </div>
-              <div className='flex flex-col align-middle justify-center w-[148px]'>
+              <div className='flex flex-col align-middle justify-center w-[148px] mr-[-20px]'>
                 <Typography variant="body4" classname="text-main-deepBlue60">
                   Clients served around the world
                 </Typography>
@@ -57,7 +57,7 @@ export const PortfolioPage = () => {
                 id={id}
                 image={{
                   path: coverImage,
-                  width: 878,
+                  width: 1400,
                   height: 632,
                 }}
                 index={index}

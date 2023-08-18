@@ -5,11 +5,14 @@ module.exports = {
   content: ['./src/**/**/*.{js,ts,jsx,tsx}'],
   theme: {
     screens: {
+      'msm': '360px',
+      'lsm': '390px',
       sm: '767px', //mobile
       x: '1009px', //tablet | 1009px is 1024 px in ipad
       xl: '1009px', //laptop | 1009px is 1024 px in ipad
       '1xl': '1230px', //laptop
       '2xl': '1440px', //desktop
+      '4xl': '1800px', // for portfolio card
       '5xl': '1920px', // ultra wide
       360: '359px',
       375: '375px',
@@ -60,7 +63,7 @@ module.exports = {
           tag: 'rgba(1, 62, 136, 0.3)',
           tag1: 'rgba(255, 255, 255, 0.3)',
           comment: '#e5e7ec',
-          vrBorder: 'rgba(128, 128, 128, 0.50)',
+          vrBorder: 'rgba(1, 62, 136, 0.15)',
         },
       },
       opacity: {
