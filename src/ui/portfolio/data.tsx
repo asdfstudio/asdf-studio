@@ -259,7 +259,7 @@ const portfolioImages = [
     { 
       id:'11-BluePrint',
       coverImage: '11-BluePrint.jpg',
-      title: 'Social Kapture Web Design',
+      title: 'BluePrint Stats Web Design',
       desc: 'The Strategic Design Studio works with companies to design and implement strategic solutions to complex challenges.',
       tags: [
         { tag: 'Website' },
@@ -279,7 +279,7 @@ const portfolioImages = [
     { 
       id:'12-Caffeine',
       coverImage: '12-Caffeine.jpg',
-      title: 'Social Kapture Web Design',
+      title: 'Caffeine Tracker',
       desc: 'The Strategic Design Studio works with companies to design and implement strategic solutions to complex challenges.',
       tags: [
         { tag: 'Website' },
@@ -295,7 +295,7 @@ const portfolioImages = [
     { 
       id:'13-Pilot',
       coverImage: '13-Pilot.jpg',
-      title: 'Social Kapture Web Design',
+      title: 'Giving Pilot Fundraising Platform',
       desc: 'The Strategic Design Studio works with companies to design and implement strategic solutions to complex challenges.',
       tags: [
         { tag: 'Website' },
@@ -322,7 +322,7 @@ const portfolioImages = [
     { 
       id:'14-Cannabox',
       coverImage: '14-Cannabox.jpg',
-      title: 'Social Kapture Web Design',
+      title: 'Impact Museum',
       desc: 'The Strategic Design Studio works with companies to design and implement strategic solutions to complex challenges.',
       tags: [
         { tag: 'Website' },
@@ -351,7 +351,7 @@ const portfolioImages = [
     { 
       id:'15-Museum',
       coverImage: '15-Museum.jpg',
-      title: 'Social Kapture Web Design',
+      title: 'Impact Museum',
       desc: 'The Strategic Design Studio works with companies to design and implement strategic solutions to complex challenges.',
       tags: [
         { tag: 'Website' },
@@ -367,7 +367,7 @@ const portfolioImages = [
     { 
       id:'16-Spotmii',
       coverImage: '16-Spotmii.jpg',
-      title: 'Social Kapture Web Design',
+      title: 'Spotmii Slide Deck',
       desc: 'The Strategic Design Studio works with companies to design and implement strategic solutions to complex challenges.',
       tags: [
         { tag: 'Website' },
@@ -384,7 +384,7 @@ const portfolioImages = [
     { 
       id:'17-HelloSkinCare',
       coverImage: '17-HelloSkinCare.jpg',
-      title: 'Social Kapture Web Design',
+      title: 'HelloSkinCare',
       desc: 'The Strategic Design Studio works with companies to design and implement strategic solutions to complex challenges.',
       tags: [
         { tag: 'Website' },
@@ -405,7 +405,7 @@ const portfolioImages = [
     { 
       id:'18-AMPS',
       coverImage: '18-AMPS.png',
-      title: 'Social Kapture Web Design',
+      title: 'AMPS + Nottingham University',
       desc: 'The Strategic Design Studio works with companies to design and implement strategic solutions to complex challenges.',
       tags: [
         { tag: 'Website' },
@@ -425,7 +425,7 @@ const portfolioImages = [
     { 
       id:'19-Editorial',
       coverImage: '19-Editorial.jpg',
-      title: 'Social Kapture Web Design',
+      title: 'Editorial Design',
       desc: 'The Strategic Design Studio works with companies to design and implement strategic solutions to complex challenges.',
       tags: [
         { tag: 'Website' },
@@ -450,7 +450,7 @@ const portfolioImages = [
     { 
       id:'20-CheckCheck',
       coverImage: '20-CheckCheck.png',
-      title: 'Social Kapture Web Design',
+      title: 'CheckCheck App Design',
       desc: 'The Strategic Design Studio works with companies to design and implement strategic solutions to complex challenges.',
       tags: [
         { tag: 'Website' },
@@ -469,7 +469,7 @@ const portfolioImages = [
     { 
       id:'21-Spendidly',
       coverImage: '21-Spendidly.png',
-      title: 'Social Kapture Web Design',
+      title: 'Spendidly Branding',
       desc: 'The Strategic Design Studio works with companies to design and implement strategic solutions to complex challenges.',
       tags: [
         { tag: 'Website' },
@@ -493,7 +493,7 @@ const portfolioImages = [
     { 
       id:'22-StreetLeap',
       coverImage: '22-StreetLeap.jpg',
-      title: 'Social Kapture Web Design',
+      title: 'StreetLeap Branding',
       desc: 'The Strategic Design Studio works with companies to design and implement strategic solutions to complex challenges.',
       tags: [
         { tag: 'Website' },
