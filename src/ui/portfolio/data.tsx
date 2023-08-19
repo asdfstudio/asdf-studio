@@ -322,7 +322,7 @@ const portfolioImages = [
     { 
       id:'14-Cannabox',
       coverImage: '14-Cannabox.jpg',
-      title: 'Impact Museum',
+      title: 'Cannabox E-Commerce',
       desc: 'The Strategic Design Studio works with companies to design and implement strategic solutions to complex challenges.',
       tags: [
         { tag: 'Website' },
