@@ -276,22 +276,22 @@ const portfolioImages = [
         { image: 'slice-7.jpg' },
       ]
     },
-    { 
-      id:'12-Caffeine',
-      coverImage: '12-Caffeine.jpg',
-      title: 'Caffeine Tracker',
-      desc: 'The Strategic Design Studio works with companies to design and implement strategic solutions to complex challenges.',
-      tags: [
-        { tag: 'Website' },
-        { tag: 'Application' },
-        { tag: 'website' }
-      ],
-      imageList: [
-        { image: 'slice-1.png' },
-        { image: 'slice-2.png' },
-        { image: 'slice-3.png' },
-      ]
-    },
+    // { 
+    //   id:'12-Caffeine',
+    //   coverImage: '12-Caffeine.jpg',
+    //   title: 'Caffeine Tracker',
+    //   desc: 'The Strategic Design Studio works with companies to design and implement strategic solutions to complex challenges.',
+    //   tags: [
+    //     { tag: 'Website' },
+    //     { tag: 'Application' },
+    //     { tag: 'website' }
+    //   ],
+    //   imageList: [
+    //     { image: 'slice-1.png' },
+    //     { image: 'slice-2.png' },
+    //     { image: 'slice-3.png' },
+    //   ]
+    // },
     { 
       id:'13-Pilot',
       coverImage: '13-Pilot.jpg',
@@ -490,25 +490,25 @@ const portfolioImages = [
         { image: 'slice-11.png' },
       ]
     },
-    { 
-      id:'22-StreetLeap',
-      coverImage: '22-StreetLeap.jpg',
-      title: 'StreetLeap Branding',
-      desc: 'The Strategic Design Studio works with companies to design and implement strategic solutions to complex challenges.',
-      tags: [
-        { tag: 'Website' },
-        { tag: 'Application' },
-        { tag: 'website' }
-      ],
-      imageList: [
-        { image: 'slice-1.png' },
-        { image: 'slice-2.png' },
-        { image: 'slice-3.png' },
-        { image: 'slice-4.png' },
-        { image: 'slice-5.png' },
-        { image: 'slice-6.png' },
-      ]
-    },
+    // { 
+    //   id:'22-StreetLeap',
+    //   coverImage: '22-StreetLeap.jpg',
+    //   title: 'StreetLeap Branding',
+    //   desc: 'The Strategic Design Studio works with companies to design and implement strategic solutions to complex challenges.',
+    //   tags: [
+    //     { tag: 'Website' },
+    //     { tag: 'Application' },
+    //     { tag: 'website' }
+    //   ],
+    //   imageList: [
+    //     { image: 'slice-1.png' },
+    //     { image: 'slice-2.png' },
+    //     { image: 'slice-3.png' },
+    //     { image: 'slice-4.png' },
+    //     { image: 'slice-5.png' },
+    //     { image: 'slice-6.png' },
+    //   ]
+    // },
   ];
 
   export default portfolioImages;
