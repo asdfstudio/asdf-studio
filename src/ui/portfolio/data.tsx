@@ -578,6 +578,184 @@ const portfolioImages = [
     //     { image: 'slice-3.png' },
     //   ]
     // },
+
+    { 
+      id:'24-LaunchPod',
+      coverImage: '24-LaunchPod.png',
+      title: 'LaunchPod',
+      desc: 'The Strategic Design Studio works with companies to design and implement strategic solutions to complex challenges.',
+      tags: [
+        { tag: 'Website' },
+        { tag: 'Application' },
+        { tag: 'website' }
+      ],
+      imageList: [
+        { image: 'slice (1).png' },
+        { image: 'slice (2).png' },
+        { image: 'slice (3).png' },
+        { image: 'slice (4).png' },
+        { image: 'slice (5).png' },
+        { image: 'slice (6).png' },
+        { image: 'slice (7).png' },
+        { image: 'slice (8).png' },
+        { image: 'slice (9).png' },
+        { image: 'slice (10).png' },
+        { image: 'slice (11).png' },
+        { image: 'slice (12).png' },
+        { image: 'slice (13).png' },
+        { image: 'slice (14).png' },
+        { image: 'slice (15).png' },
+        { image: 'slice (16).png' },
+        { image: 'slice (17).png' },
+        { image: 'slice (18).png' },
+        { image: 'slice (19).png' },
+        { image: 'slice (20).png' },
+        { image: 'slice (21).png' },
+        { image: 'slice (22).png' },
+      ]
+    },
+    { 
+      id:'25-LiquitexColArt',
+      coverImage: '25-LiquitexColArt.png',
+      title: 'Liquitex/ColArt',
+      desc: 'The Strategic Design Studio works with companies to design and implement strategic solutions to complex challenges.',
+      tags: [
+        { tag: 'Website' },
+        { tag: 'Application' },
+        { tag: 'website' }
+      ],
+      imageList: [
+        { image: 'slice (1).png' },
+        { image: 'slice (2).png' },
+        { image: 'slice (3).png' },
+        { image: 'slice (4).png' },
+        { image: 'slice (5).png' },
+        { image: 'slice (6).png' },
+        { image: 'slice (7).png' },
+        { image: 'slice (8).png' },
+        { image: 'slice (9).png' },
+      ]
+    },
+    { 
+      id:'26-Toyota Equipo',
+      coverImage: '26-Toyota Equipo.png',
+      title: 'Toyota Equipo Industries',
+      desc: 'The Strategic Design Studio works with companies to design and implement strategic solutions to complex challenges.',
+      tags: [
+        { tag: 'Website' },
+        { tag: 'Application' },
+        { tag: 'website' }
+      ],
+      imageList: [
+        { image: 'slice (1).png' },
+        { image: 'slice (2).png' },
+        { image: 'slice (3).png' },
+        { image: 'slice (4).png' },
+      ]
+    },
+    { 
+      id:'27-SleevesUp',
+      coverImage: '27-SleevesUp.png',
+      title: 'SleevesUp Slide Deck',
+      desc: 'The Strategic Design Studio works with companies to design and implement strategic solutions to complex challenges.',
+      tags: [
+        { tag: 'Website' },
+        { tag: 'Application' },
+        { tag: 'website' }
+      ],
+      imageList: [
+        { image: 'slice (1).png' },
+        { image: 'slice (2).png' },
+        { image: 'slice (3).png' },
+        { image: 'slice (4).png' },
+        { image: 'slice (5).png' },
+        { image: 'slice (6).png' },
+        { image: 'slice (7).png' },
+        { image: 'slice (8).png' },
+        { image: 'slice (9).png' },
+        { image: 'slice (10).png' },
+        { image: 'slice (11).png' },
+        { image: 'slice (12).png' },
+        { image: 'slice (13).png' },
+        { image: 'slice (14).png' },
+        { image: 'slice (15).png' },
+        { image: 'slice (16).png' },
+      ]
+    },
+    { 
+      id:'28-Movefit',
+      coverImage: '28-Movefit.png',
+      title: 'Movefit',
+      desc: 'The Strategic Design Studio works with companies to design and implement strategic solutions to complex challenges.',
+      tags: [
+        { tag: 'Website' },
+        { tag: 'Application' },
+        { tag: 'website' }
+      ],
+      imageList: [
+        { image: 'slice (1).png' },
+        { image: 'slice (2).png' },
+        { image: 'slice (3).png' },
+        { image: 'slice (4).png' },
+        { image: 'slice (5).png' },
+        { image: 'slice (6).png' },
+        { image: 'slice (7).png' },
+        { image: 'slice (8).png' },
+        { image: 'slice (9).png' },
+        { image: 'slice (10).png' },
+        { image: 'slice (11).png' },
+        { image: 'slice (12).png' },
+      ]
+    },
+    { 
+      id:'29-Bitformance',
+      coverImage: '29-Bitformance.png',
+      title: 'Bitformance',
+      desc: 'The Strategic Design Studio works with companies to design and implement strategic solutions to complex challenges.',
+      tags: [
+        { tag: 'Website' },
+        { tag: 'Application' },
+        { tag: 'website' }
+      ],
+      imageList: [
+        { image: 'slice (1).png' },
+        { image: 'slice (2).png' },
+        { image: 'slice (3).png' },
+        { image: 'slice (4).png' },
+        { image: 'slice (5).png' },
+        { image: 'slice (6).png' },
+        { image: 'slice (7).png' },
+        { image: 'slice (8).png' },
+        { image: 'slice (9).png' },
+        { image: 'slice (10).png' },
+        { image: 'slice (11).png' },
+        { image: 'slice (12).png' },
+        { image: 'slice (13).png' },
+      ]
+    },
+    { 
+      id:'30-Programi',
+      coverImage: '30-Programi.png',
+      title: 'Most Programi',
+      desc: 'The Strategic Design Studio works with companies to design and implement strategic solutions to complex challenges.',
+      tags: [
+        { tag: 'Website' },
+        { tag: 'Application' },
+        { tag: 'website' }
+      ],
+      imageList: [
+        { image: 'slice (1).png' },
+        { image: 'slice (2).png' },
+        { image: 'slice (3).png' },
+        { image: 'slice (4).png' },
+        { image: 'slice (5).png' },
+        { image: 'slice (6).png' },
+        { image: 'slice (7).png' },
+        { image: 'slice (8).png' },
+        { image: 'slice (9).png' },
+        { image: 'slice (10).png' },
+      ]
+    },
   ];
 
   export default portfolioImages;
