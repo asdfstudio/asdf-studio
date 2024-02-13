@@ -18,7 +18,7 @@ const MainLayout: FC<Props> = ({ children }) => {
           property="og:image"
           content="https://airlystudio.com/website_thumbnail@1x.png"
         />
-        <link rel="icon" href="/airly-logo.svg" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
       <main className={['mt-[60px]'].join(' ')}>{children}</main>

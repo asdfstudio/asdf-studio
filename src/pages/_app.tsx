@@ -1,6 +1,8 @@
 import 'styles/globals.css';
 import type { AppProps } from 'next/app';
 import Script from 'next/script';
+import { Provider } from 'react-redux';
+import store from 'store'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -35,7 +37,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         gtag('config', 'G-RVB34B1X53');
         `}
       </Script>
-      <Component {...pageProps} />
+      <Provider store={store}>
+        <Component {...pageProps} />
+      </Provider>
     </>
   );
 }
