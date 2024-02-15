@@ -153,7 +153,7 @@ export const PortfolioCard: FC<Props> = ({
                             {title}
                         </Typography>
                     </div>
-                    <div className='pl-2 py-[20px]'>
+                    {/* <div className='pl-2 py-[20px]'>
                         <Typography variant="title6" classname="text-main-deepBlue opacity-80">
                             {desc}
                         </Typography>
@@ -168,7 +168,7 @@ export const PortfolioCard: FC<Props> = ({
                                 </div>
                             );
                         })}
-                    </div>
+                    </div> */}
                 </div>
                 {Object.values(imageList).map(({image}, i) => {
                     return (
