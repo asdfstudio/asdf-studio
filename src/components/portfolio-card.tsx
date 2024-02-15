@@ -85,7 +85,7 @@ export const PortfolioCard: FC<Props> = ({
                         {title}
                     </Typography>
                 </div>
-                <div className='my-[20px] text-main-deepBlue opacity-80' style={{
+                {/* <div className='my-[20px] text-main-deepBlue opacity-80' style={{
                     display: '-webkit-box',
                     WebkitLineClamp: 2,
                     WebkitBoxOrient: 'vertical',
@@ -106,7 +106,7 @@ export const PortfolioCard: FC<Props> = ({
                         </div>
                         );
                     })}
-                </div>
+                </div> */}
             </div>
         </div>
         <Modal
