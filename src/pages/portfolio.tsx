@@ -5,7 +5,7 @@ import Portfolio from "ui/portfolio";
 const PoerfolioUI = () => {
   return (
     <MainLayout>
-      {/* <PortfolioHeader/> */}
+      <PortfolioHeader />
       <Portfolio />
     </MainLayout>
   );
