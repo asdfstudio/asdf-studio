@@ -93,7 +93,7 @@ export const PortfolioHeader = () => {
   return (
     <div className="fixed top-15 left-0 bg-main-deepBlue shadow-headerShadow w-full z-40 bg-gradient-to-l from-[#FFFFFF] via-[0.03%] 2xl:via-[0%]">
       <div
-        className={`w-auto h-[50px] flex flex-row items-center gap-2 shadow-headerShadow overflow-x-auto scroll-smooth 2xl:justify-center`}
+        className={`w-auto h-[50px] flex flex-row items-center gap-2 shadow-headerShadow overflow-x-hidden scroll-smooth 2xl:justify-center`}
         ref={scrollContainerRef}
       >
         {showLeftArrow && (
