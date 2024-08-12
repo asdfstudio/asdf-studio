@@ -15,6 +15,7 @@ export type TypoVariants =
   | "heading6"
   | "heading7"
   | "heading8"
+  | "heading9"
   | "label1"
   | "label2"
   | "label3"
@@ -22,15 +23,17 @@ export type TypoVariants =
   | "body2"
   | "body3"
   | "body4"
+  | "body5"
   | "title2"
   | "title3"
   | "title4"
   | "title5"
   | "title6"
+  | "title8"
+  | "title9"
   | "tag"
   | "title-semi-button"
-  | "title-semi-button2"
-  ;
+  | "title-semi-button2";
 
 type Props = {
   children: React.ReactNode;
@@ -50,14 +53,17 @@ export const Typography: FC<Props> = ({
       "text-[14px] sm:text-[14px] font-semibold leading-normal sm:leading-[24px] tracking-[5px] sm:tracking-[1.5px] font-demi",
     "title-semi-button":
       "text-[14px] font-semibold leading-[24px] tracking-[1.5px] font-demi",
-    "title-semi-button2":
-      "text-[14px] font-semibold leading-normal font-sans",
+    "title-semi-button2": "text-[14px] font-semibold leading-normal font-sans",
     title1: "text-[16px] leading-[20px] sm:tracking-[0.5px] tracking-normal",
     title2: "text-[30px] leading-[50px] -tracking-[0.82px]",
     title3: "text-[16px] leading-[20px] tracking-[1.5px] font-sans",
     title4: "text-[16px] leading-[20px] font-bold",
     title5: "text-[16px] leading-[20px]",
     title6: "text-[16px] leading-[20px] tracking-normal font-sans font-[500]",
+    title8:
+      "text-[30px] leading-[49.5px] tracking-[-0.818px] font-sans font-[700]",
+    title9:
+      "text-[30px] leading-[49.5px] tracking-[-0.818px] font-sans font-[500]",
     heading: "text-[40px] font-medium",
     body: "text-[14px] font-man font-bold tracking-[1px] leading-[24px]",
     heading1:
@@ -71,12 +77,14 @@ export const Typography: FC<Props> = ({
     heading6: "text-[30px] leading-[50px] -tracking-[1.09px] font-sans",
     heading7:
       "text-[55px] leading-[64px] sm:text-[75px] leading-[114px] sm:-tracking-[2.05px] -tracking-[1.5px]",
-    heading8:
-      "text-[30px] leading-normal -tracking-[1.35px] sm:text-[56px]",
+    heading8: "text-[30px] leading-normal -tracking-[1.35px] sm:text-[56px]",
+    heading9:
+      "text-[45px] sm:text-[75px] leading-[114px] sm:-tracking-[2.05px] -tracking-[1.5px]",
     body1: "text-[20px] leading-[26px] tracking-normal",
     body2: "text-[12px] leading-normal tracking-[0.2px]",
     body3: "text-[12px] tracking-[0.2px] leading-4",
     body4: "text-[18px] font-medium tracking-[-0.8px] leading-normal",
+    body5: "text-[22px] font-medium leading-[26px] tracking-normal",
     label1:
       "text-[13.5px] font-demi font-semibold leading-normal tracking-[0px]",
     label2: "text-[13.5px]  leading-normal tracking-[0.84px]",

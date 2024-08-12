@@ -8,7 +8,7 @@ import Scroll from "react-scroll";
 import { usePathname } from "next/navigation";
 import { useRouter } from "next/router";
 
-export const Footer = () => {
+export const PageFooter = () => {
   const pathname = usePathname();
   const router = useRouter();
   const scroller = Scroll.scroller;
@@ -23,8 +23,8 @@ export const Footer = () => {
     scrollTarget(target);
   };
   return (
-    <Canvas classname="bg-lightBlue">
-      <div
+    <Canvas classname="bg-main-lightBlue">
+       <div
         id="contact_us"
         className={[
           "relative max-w-[1180px] 2xl:max-w-[1260px] w-full mx-auto z-20 pt-[60px]",
